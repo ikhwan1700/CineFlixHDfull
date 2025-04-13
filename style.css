@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0f0f0f;
+  color: #fff;
+}
+header {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+}
+main {
+  padding: 20px;
+}
+.genre-section {
+  margin-bottom: 40px;
+}
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.movie-card {
+  background: #1c1c1c;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+}
+.movie-card iframe {
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1f1f1f;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .movie-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
